@@ -1,6 +1,16 @@
 public class eight_two {
     public static void main(String[] args) {
-        
+        Cat c = new Cat();
+        Dog d = new Dog();
+        Goat g = new Goat();
+
+        Animal a ;
+        a = c;
+        a.sounds();
+        a = d;
+        a.sounds();
+        a = g;
+        a.sounds();
     }
 }
 class Animal{
