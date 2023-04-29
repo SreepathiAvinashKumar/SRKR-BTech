@@ -14,6 +14,9 @@ public class seven_one {
         System.out.println("Accessing index of array is less than array size");
         System.out.println(e.toString());
     }
+    finally{
+        System.out.println("Program execution finished");
+    }
 
     }
 }
